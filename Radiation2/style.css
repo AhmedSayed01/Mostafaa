@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgb(34, 34, 34);
+    background-attachment: fixed;
+    position: sticky;
+}
+
+.container{
+    clear: both;
+text-align: center;
+
+}
+
+
+.container .row div[class=col-8] ul li , a , button{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    /* font-weight: 600; */
+    font-size: 20px;
+
+}
+.container .row ul button{
+    color: aliceblue;
+    background-color: #2a81ea;
+    border-radius: 20px;
+    width:200%;
+    border-width: 0px;
+    margin-top: 20px;
+}
